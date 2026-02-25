@@ -1,0 +1,45 @@
+//------------------------------------------------------------------//
+
+//1. What is the difference between forEach and for...of? When would you use each?
+
+//--forEach() : build in function in java script used to apllay operations in array for each element 
+// with out changing the values ,returns void 
+
+//--for...of : java script loop works on all nonpremitive and primitv data type like
+//  (array, objects, string) called iterables 
+//---------------------------------//
+
+//2. What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples.
+// hoisting : is a stage when running the code line by line when the varibles been decleard
+// they hoisted at the top of the code in the memory , and assign the values to them
+// in the excution context box 
+let x = 10 
+console.log(x)
+
+//here the Interpreter reads the code line by line 
+//it found the varible x 
+//it Reserve a blace for it in the memory [hoisted]
+//and after that assign the value and print it 
+
+//TDZ : The time between when a variable is hoisted and when 
+// it is initialized it only applies to let and const
+
+//------------------------------------//
+
+//3. What are the main differences between == and ===?
+// == compair between the values only
+// === compair between values and types
+
+//------------------------------------//
+
+//4. Explain how try-catch works and why it is important in async operations. ???????????
+
+//5. What’s the difference between type conversion and coercion? Provide examples of each.
+
+//conversion : convert the types into anoter types
+Number('123')
+String(123)
+
+// coercion : automatic javascript operation convert type another type
+console.log(1 == '1')
+ 
